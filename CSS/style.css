@@ -1,0 +1,26 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    background: cyan
+}
+
+header {
+    margin: 5px;
+}
+
+.box {
+    background: gainsboro;
+    margin: 25px;
+}
+
+.headshot {
+    position: absolute;
+}
+
+footer {
+    background: #343A40;
+    margin-top: 3px;
+    color: white;
+}
