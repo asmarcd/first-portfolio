@@ -22,7 +22,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About me</a>
                 </li>
@@ -36,8 +36,10 @@
         </div>
     </nav>
 
+<!-- Content -->
+
     <main>
-        <section class="content-box">
+        <section>
             <div class="row">
                 <aside class="col-md-8 box">
                     <header>
@@ -45,7 +47,21 @@
                     </header>
                     <hr>
                     <article>
-                        <!-- content of the page goes here. Use bootstrap form setup for this.-->
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Your name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Your message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </article>
                 </aside>
                 <aside class="col-md-4">
@@ -53,18 +69,21 @@
                 </aside>
             </div>
         </section>
+
+<!-- Footer -->
+
+        <footer>
+            <div class="row">
+                <section class="col-12">
+                    <p>
+                        &copy Christopher Asmar 2020
+                    </p>
+                </section>
+            </div>
+        </footer>
     </main>
 
-    <footer>
-        <div class="row">
-            <section class="col-md-12">
-                <p>
-                    copyright Christopher Asmar 2020
-                    <!-- Replace copyright with symbol. Should be a border line of a different color on top of footer. -->
-                </p>
-            </section>
-        </div>
-    </footer>
+<!-- End of page -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
