@@ -16,10 +16,12 @@ main {
     min-height: 95vh;
 }
 
+/* This affects the title of each page, inside the content box along with the content but above the horizontal line */
 header {
     margin: 5px;
 }
 
+/* This affects the content box that the content on the pages is placed inside */
 .box {
     background: gainsboro;
     margin: 25px 50px 100px;
@@ -28,6 +30,7 @@ header {
     overflow: visible;
 }
 
+/* This will affect the picture of me on the home page */
 .headshot {
     margin: 1%;
     position: relative;
@@ -37,12 +40,14 @@ header {
     height: 222px;
 }
 
+/* changes to .animal-pic will impact all the images on the porfolio page, even if they're not of animals :-) */
 .animal-pic {
     margin: 1%;
     position: relative;
     max-width: 100%;
 }
 
+/* This affects the button on the contact me page */
 .btn {
     margin-bottom: 10px;
 }
