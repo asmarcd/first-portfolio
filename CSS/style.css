@@ -40,11 +40,14 @@ header {
     height: 222px;
 }
 
-/* changes to .animal-pic will impact all the images on the porfolio page, even if they're not of animals :-) */
-.animal-pic {
+/* changes to .project-pic will impact all the images on the porfolio page*/
+.project-pic {
     margin: 1%;
     position: relative;
     max-width: 100%;
+}
+.project-caption {
+    text-align: center;
 }
 
 /* This affects the button on the contact me page */

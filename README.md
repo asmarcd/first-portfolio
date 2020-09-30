@@ -4,7 +4,7 @@ I've created a basic portfolio site with three pages: an about me, a portfolio p
 Currently the contact me page does not function, but I plan to go back and add that functionality as I develop my skill set.
 
 Screenshot of the About me page:
-Images\site-screenshot.png
+<img src = "Images/site-screenshot.png">
 
 Link to site:
 https://asmarcd.github.io/first-portfolio/
